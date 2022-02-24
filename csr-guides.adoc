@@ -1,0 +1,99 @@
+= DigiCert | CSR Generation Guides
+:toc:
+
+## Common Platforms & Operating Systems
+
+image:https://www.digicert.com/kb/images/iis.png[]
+
+### Microsoft IIS
+
+CSR Generator::
+https://www.digicert.com/kb/util/csr-creation-microsoft-servers-using-digicert-utility.htm[Generate a CSR with the DigiCert Certificate Utility]
+
+Guides::
+- link:https://www.digicert.com/kb/csr-creation-ssl-installation-iis-10.htm[IIS 10]
+- link:https://www.digicert.com/kb/csr-ssl-installation/iis-8-and-8.5.htm[IIS 8/8.5]
+- https://www.digicert.com/kb/csr-ssl-installation/iis-7.htm[IIS 7]
+- https://www.digicert.com/kb/csr-creation-microsoft-iis-5-6.htm[IIS 5/6]
+- https://www.digicert.com/kb/csr-creation-microsoft-iis-4.htm[IIS 4]
+- https://www.digicert.com/kb/ssl-support/pfx-import-export-iis-8.htm[PFX Import/Export]
+
+Learn More::
+-   https://www.digicert.com/kb/csr-creation-ssl-installation-iis-10.htm[SSL Certificates for IIS »]
+-   https://www.digicert.com/support/tools/certificate-utility-for-windows[DigiCert Certificate Utility »]
+
+image:https://www.digicert.com/kb/images/exchange.png[]
+
+### Microsoft Exchange Server
+
+**CSR Generators:**
+
+-   https://www.digicert.com/easy-csr/exchange2007.htm[Generate a CSR for Exchange 2007]
+-   https://www.digicert.com/kb/util/csr-creation-microsoft-servers-using-digicert-utility.htm[Generate a CSR Using the DigiCert Certificate Utility]
+
+**Instructions:**
+
+-   https://www.digicert.com/kb/csr-creation-ssl-installation-exchange-2016.htm[Exchange 2016]
+-   https://www.digicert.com/kb/csr-creation-microsoft-exchange-2013.htm[Exchange 2013]
+-   https://www.digicert.com/kb/csr-creation-microsoft-exchange-2010.htm[Exchange 2010]
+-   https://www.digicert.com/kb/csr-creation-microsoft-unified-communications.htm[Exchange 2007]
+-   https://www.digicert.com/kb/ssl-support/pfx-import-export-exchange-2007.htm[PFX Import/Export]
+
+**Learn More:**
+
+-   https://www.digicert.com/kb/exchange-ssl-certificate.htm[SSL Certificates for Exchange »]
+-   https://www.digicert.com/support/tools/certificate-utility-for-windows[DigiCert Certificate Utility »]
+
+https://www.digicert.com/kb/images/apache.png[]
+
+### Apache Server (OpenSSL)
+
+**CSR Generator:**
+
+-   https://www.digicert.com/easy-csr/openssl.htm[Generate a CSR with the OpenSSL CSR Wizard]
+
+**Instructions:**
+
+-   https://www.digicert.com/kb/csr-ssl-installation/apache-openssl.htm[Apache Server]
+-   https://www.digicert.com/kb/csr-ssl-installation/ubuntu-server-with-apache2-openssl.htm[Ubuntu Server with Apache2]
+-   https://www.digicert.com/kb/ssl-support/apache-ssl-export.htm[PFX Import/Export]
+
+**Learn More:**
+
+-   https://www.digicert.com/kb/ssl-support/openssl-quick-reference-guide.htm[OpenSSL Quick Reference Guide »]
+-   https://www.digicert.com/kb/csr-ssl-installation/apache-openssl.htm[SSL Certificates for Apache »]
+
+image:https://www.digicert.com/kb/images/tomcat.png[]
+
+### Tomcat Server (Keytool)
+
+CSR Generator::
+- https://www.digicert.com/easy-csr/keytool.htm[Generate a CSR with the Java Keytool CSR Wizard]
+
+Guides::
+- https://www.digicert.com/kb/csr-ssl-installation/tomcat-keytool.htm[Tomcat Server]
+- https://www.digicert.com/kb/csr-creation-java.htm[Java Based Server]
+
+Learn More::
+- https://www.digicert.com/kb/csr-ssl-installation/tomcat-keytool.htm[SSL Certificates for Tomcat »]
+
+image:https://www.digicert.com/kb/images/ms-lync-logo.jpg[]
+
+### Microsoft Lync
+
+CSR Generator::
+- https://www.digicert.com/kb/util/csr-creation-microsoft-servers-using-digicert-utility.htm[Generate a CSR with the DigiCert Certificate Utility]
+
+Guides::
+-  https://www.digicert.com/kb/csr-creation-lync-2013.htm[Lync 2013]
+-  https://www.digicert.com/kb/csr-creation-lync-2010.htm[Lync 2010]
+
+**Learn More:**
+
+-   [SSL Certificates »](https://www.digicert.com/tls-ssl/basic-tls-ssl-certificates)
+-   [DigiCert Certificate Utility »](https://www.digicert.com/support/tools/certificate-utility-for-windows) 
+          [https://www.digicert.com/kb/csr-creation.htm](https://www.digicert.com/kb/csr-creation.htm)
+
+       [https://www.digicert.com/kb/csr-creation.htm](https://www.digicert.com/kb/csr-creation.htm)
+
+    [https://www.digicert.com/kb/csr-creation.htm](https://www.digicert.com/kb/csr-creation.htm)
