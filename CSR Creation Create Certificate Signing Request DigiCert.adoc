@@ -1,0 +1,62 @@
+# CSR Creation | Create Certificate Signing Request | DigiCert
+## General CSR Creation Guidelines
+
+__source: https://www.digicert.com/kb/csr-creation.htm__
+
+Before you can order an SSL certificate, it is recommended that you
+generate a Certificate Signing Request (CSR) from your server or device.
+https://www.digicert.com/tls-ssl/basic-tls-ssl-certificates[Learn more
+about SSL certificates »]
+
+A CSR is an encoded file that provides you with a standardized way to
+send DigiCert your public key as well as some information that
+identifies your company and domain name. When you generate a CSR, most
+server software asks for the following information: common name (e.g.,
+http://www.example.com[www.example.com]), organization name and location
+(country, state/province, city/town), key type (typically RSA), and key
+size (2048-bit minimum).
+
+If you aren't sure of the exact company name or location when you
+generate the CSR, don't worry; we can change and finalize that
+information during our review process before we issue the certificate.
+
+Once your CSR is created, you'll need to copy and paste it into the
+online order form when you go to purchase your SSL certificate.
+https://www.digicert.com/order/order-1.php[Online Certificate Order Form
+»]
+
+https://www.digicert.com/tls-ssl/compare-certificates[Not sure which SSL
+certificate you need? »]
+
+[[common-platforms--operating-systems]]
+== Common Platforms & Operating Systems
+
+[[2048-bit-key-length-required]]
+== 2048-Bit Key Length Required
+
+To remain secure, SSL certificates must use keys that are 2048-bits in
+length or greater. https://wiki.mozilla.org/CA:MD5and1024[More details
+»] +
+Can't generate a CSR with a 2048-bit key on your server platform? Please
+https://www.digicert.com/contact-us[contact us].
+
+== Wondering What Information is Needed for Your CSR?
+
+. *Common Name* (fully qualified domain name [FQDN] your certificate
+will secure)
+. *Country*
+(https://www.digicert.com/kb/ssl-certificate-country-codes.htm[two-digit
+code])
+. *State or Locality* (full names e.g., California or Barcelona)
+. *Organization Name* (full legal company or personal name as registered
+in your locality)
+. *Organization Unit* (department in your organization the certificate
+is for [e.g., IT or Marketing])
+
+== Generating a CSR for a Wildcard Certificate?
+
+When generating a CSR for a Wildcard certificate, the common name must
+start with an asterisk (_) (e.g., _.example.com). The Wildcard character
+(*) can assume any name that doesn't have a dot character in it.
+
+When generating a CSR for a Wildcard certificate, the common name must start with an asterisk (_) (e.g., _.example.com). The Wildcard character (\*) can assume any name that doesn't have a dot character in it.
