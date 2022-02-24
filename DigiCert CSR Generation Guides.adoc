@@ -1,4 +1,6 @@
-# DigiCert | CSR Generation Guides
+= DigiCert | CSR Generation Guides
+:toc:
+
 ## Common Platforms & Operating Systems
 
 ![](https://www.digicert.com/kb/images/iis.png)
@@ -55,7 +57,7 @@
 
 **Instructions:**
 
--   [Apache Server](/kb/csr-ssl-installation/apache-openssl.htm)
+-   /kb/csr-ssl-installation/apache-openssl.htm[Apache Server]
 -   [Ubuntu Server with Apache2](/kb/csr-ssl-installation/ubuntu-server-with-apache2-openssl.htm)
 -   [PFX Import/Export](/kb/ssl-support/apache-ssl-export.htm)
 
@@ -64,7 +66,7 @@
 -   [OpenSSL Quick Reference Guide »](/kb/ssl-support/openssl-quick-reference-guide.htm)
 -   [SSL Certificates for Apache »](/kb/csr-ssl-installation/apache-openssl.htm)
 
-![](https://www.digicert.com/kb/images/tomcat.png)
+image:https://www.digicert.com/kb/images/tomcat.png[]
 
 ### Tomcat Server (Keytool)
 
