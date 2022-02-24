@@ -1,0 +1,65 @@
+== XMS | Apple | DEP & Bulk Enrollment
+
+You can enroll large numbers of iOS, iPadOS, and macOS devices in
+XenMobile in two ways.
+
+* Use the Apple Deployment Program to enroll the iOS, iPadOS, and macOS
+devices that you buy directly from Apple, a participating Apple
+Authorized Reseller, or a carrier. That support includes Shared iPads.
+XenMobile supports the Apple Deployment Program for Apple Business
+Manager (ABM) and Apple School Manager (ASM) for Education. This article
+describes how to integrate multiple devices with your ABM account. For
+information on enrolling in ABM and connecting your ABM account with
+XenMobile, see
+https://docs.citrix.com/en-us/xenmobile/server/provision-devices/apple-deployment-program.html[Deploy
+devices through Apple Deployment Program]. For information about Apple
+School Manager accounts, see
+https://docs.citrix.com/en-us/xenmobile/server/provision-devices/integrate-with-apple-education.html[Integrate
+with Apple Education features].
++
+For enrollment of macOS devices, XenMobile requires that the devices run
+macOS 10.10 or later.
+* You can also use Apple Configurator 2 to enroll iOS devices whether
+you purchased them directly from Apple or not.
+
+With ABM:
+
+* You do not have to touch or prepare the devices. Instead, you submit
+device serial numbers or purchase order numbers through ABM to configure
+and enroll the devices.
+* After XenMobile enrolls the devices, you can give them to users who
+can start using them right away. When you set up devices with ABM, you
+can eliminate some of the Setup Assistant steps that users would have to
+complete when they first start their devices.
+* For more information on setting up ABM, see the documentation
+available from https://business.apple.com/[Apple Business Manager].
+
+With Apple Configurator 2:
+
+* You attach iOS devices to an Apple computer running macOS 10.7.2 or
+later and the Apple Configurator 2 app. You prepare the iOS devices and
+configure policies through Apple Configurator 2.
+* After you provision the devices with the required policies, the first
+time the devices connect to XenMobile, the devices receive policies from
+XenMobile. You can then start managing the devices.
+* For more information about using Apple Configurator 2, see the
+https://help.apple.com/configurator/mac/1.7.2/#/cadf1802aed[Apple
+Configurator Help].
+
+=== Prerequisites
+
+Open required ports for connectivity between XenMobile and Apple. For
+more information, see
+https://docs.citrix.com/en-us/xenmobile/server/system-requirements/ports.html[Port
+requirements].
+
+=== Integrate your Apple Business Manager account with XenMobile
+
+If you do not have an ABM account set up with XenMobile, complete the
+following steps in
+https://docs.citrix.com/en-us/xenmobile/server/provision-devices/apple-deployment-program.html[Deploy
+devices through Apple Deployment Program].
+
+* Enroll in Apple Business Manager.
+* Connect your Apple Business Manager account with XenMobile.
+* Order Deployment Program
