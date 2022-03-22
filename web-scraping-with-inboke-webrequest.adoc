@@ -1,18 +1,6 @@
 # PowerShell Invoke-WebRequest - Parse and scrape a web page | 4sysops
 PowerShell’s _Invoke-WebRequest_ is a powerful cmdlet that allows you to download, parse, and scrape web pages.
 
--   [Author](#abh_about)
--   [Recent Posts](#abh_posts)
-
-[![](https://4sysops.com/wp-content/uploads/avatars/2/85cc6024c6505346362f16e3f5ab4db2-bpfull.png)
-](https://4sysops.com/members/michael-pietroforte/ "Michael Pietroforte")
-
-Michael Pietroforte is the founder and editor in chief of 4sysops. He has more than 35 years of experience in IT management and system administration.  
-[](https://4sysops.com/archives/results-of-the-4sysops-member-and-author-competition-in-2018/)
-
-[![](https://4sysops.com/wp-content/uploads/avatars/2/85cc6024c6505346362f16e3f5ab4db2-bpfull.png)
-](https://4sysops.com/members/michael-pietroforte/ "Michael Pietroforte")
-
 Latest posts by Michael Pietroforte ([see all](https://4sysops.com/members/michael-pietroforte/))
 
 In a previous post, I outlined the options you have to [download files with different Internet protocols](https://4sysops.com/archives/use-powershell-to-download-a-file-with-http-https-and-ftp/). You use _Invoke-WebRequest_ to download files from the web via HTTP and HTTPS. However, the cmdlet enables you to do much more than just download files; you can use it to analyze to contents of web pages and use the information in your scripts.
