@@ -20,11 +20,11 @@ The most important thing to remember when using these ssh-keygen commands are t
 
 a. Private key conversion from SSH2 into OpenSSH:
 
-$   ssh-keygen -i -f path/to/ssh2_private.key > path/to/new/opensshprivate.key
+    ssh-keygen -i -f path/to/ssh2_private.key > path/to/new/opensshprivate.key
 
 b. Public key conversion from SSH2 into OpenSSH:
 
-$   ssh-keygen -i -f path/to/ssh2_publickey.pub >> path/to/opensshpublickey.pub
+    ssh-keygen -i -f path/to/ssh2_publickey.pub >> path/to/opensshpublickey.pub
 
 3.    When the client application requires a non-OpenSSH format:  
 
@@ -32,11 +32,11 @@ Example: Convert an OpenSSH key into the SSH2 format:
 
 a. Private key conversion from OpenSSH into SSH2:
 
-$   ssh-keygen -e -f path/to/opensshprivate.key> path/to/ssh2_private.key
+    ssh-keygen -e -f path/to/opensshprivate.key> path/to/ssh2_private.key
 
 b. Public key conversion from OpenSSH into SSH2:
 
-$   ssh-keygen -e -f path/to/opensshpublickey.pub > path/to/ssh2_publickey.pub
+    ssh-keygen -e -f path/to/opensshpublickey.pub > path/to/ssh2_publickey.pub
 
 With these commands you should be able to successfully
 
