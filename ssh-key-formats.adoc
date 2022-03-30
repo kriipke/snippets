@@ -1,17 +1,13 @@
-# How to convert a SSH key to other formats - Progress Community
-# How to convert a SSH key to other formats
+= How to convert a SSH key to other formats
 
-### To convert a SSH client key to an OpenSSH format:
+== To convert a SSH client key to an OpenSSH format:
 
-1.   Install the OpenSSH tool set, available under a BSD-style license:
-
--     [http://www.openssh.com/](http://www.openssh.com/)   
-
-2.  Convert the SSH client key
+. Install the OpenSSH tool set, available under a BSD-style license: [http://www.openssh.com/](http://www.openssh.com/)   
+. Convert the SSH client key
 
 The ssh-keygen utility is used to covert SSH keys between the different formats required by MessageWay or any other secure file transfer application.  
 
-Example: Convert SSH2 to OpenSSH  
+=== Example: Convert SSH2 to OpenSSH  
 
 The most important thing to remember when using these ssh-keygen commands are the flags:
 
@@ -28,7 +24,7 @@ b. Public key conversion from SSH2 into OpenSSH:
 
 3.    When the client application requires a non-OpenSSH format:  
 
-Example: Convert an OpenSSH key into the SSH2 format:  
+=== Example: Convert an OpenSSH key into the SSH2 format:  
 
 a. Private key conversion from OpenSSH into SSH2:
 
