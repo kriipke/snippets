@@ -16,17 +16,17 @@ They say, “Failure is the key to success; each mistake teaches us something.�
 The file /etc/deluser.conf was configured to remove the home directory (it was done by previous sys admin and it was my first day at work) and mail spool of the user to be removed. I just wanted to remove the user account and I end up deleting everything (note -r was activated via deluser.conf):  
 `userdel foo`
 
-\*\*2. Rebooted Solaris Box
+### Rebooted Solaris Box
 
 On Linux [killall command](//www.cyberciti.biz/tips/kill-frozen-crashed-unix-linux-desktop.html) kill processes by name (killall httpd). On Solaris it kill all active processes. As root I killed all process, this was our main Oracle db box:  
 `killall process-name`
 
-\*\*3. Destroyed named.conf
+### Destroyed named.conf
 
 I wanted to append a [new zone](https://bash.cyberciti.biz/domain/create-bind9-domain-zone-configuration-file/) to /var/named/chroot/etc/named.conf file., but end up running:  
 `./mkzone example.com > /var/named/chroot/etc/named.conf`
 
-\*\*4. Destroyed Working Backups with Tar and Rsync (personal backups)
+### Destroyed Working Backups with Tar and Rsync (personal backups)**
 
 I had only one backup copy of my QT project and I just wanted to get a directory called functions. I end up deleting entire backup (note -c switch instead of -x):  
 `cd /mnt/bacupusbharddisk  
@@ -35,21 +35,21 @@ I had no backup. Similarly I end up running rsync command and deleted all new fi
 `rsync -av -delete /dest /src`  
 Again, I had no backup.
 
-\*\*5. Deleted Apache DocumentRoot
+### Deleted Apache DocumentRoot
 
 I had [sym links](//www.cyberciti.biz/faq/unix-creating-symbolic-link-ln-command/) for my web server docroot (/home/httpd/http was symlinked to /www). I forgot about symlink issue. To save disk space, I ran rm -rf on http directory. Luckily, I had full working backup set.
 
-\*\*6. Accidentally Changed Hostname and Triggered False Alarm
+## Accidentally Changed Hostname and Triggered False Alarm
 
 Accidentally changed the current hostname (I wanted [to see current hostname settings](https://www.cyberciti.biz/faq/find-my-linux-machine-name/)) for one of our cluster node. Within minutes I received an alert message on both mobile and email.  
 `hostname foo.example.com`
 
-\*\*7. Public Network Interface Shutdown
+## Public Network Interface Shutdown
 
 I wanted to shutdown VPN interface eth0, but ended up shutting down eth1 while I was logged in via SSH:  
 `ifconfig eth1 down`
 
-\*\*8. Firewall Lockdown
+## Firewall Lockdown
 
 I made changes to sshd_config and changed the ssh port number from 22 to 1022, but failed to update firewall rules. After a quick kernel upgrade, I had rebooted the box. I had to call remote data center tech to reset firewall settings. (now I use [firewall reset script](//www.cyberciti.biz/faq/linux-iptables-firewall-flushout-configuration-every-5minutes/) to avoid lockdowns).
 
@@ -60,12 +60,12 @@ I wanted to shutdown my local Fedora desktop system, but I issued halt on remote
 service httpd stop  
 `
 
-\*\*10. Wrong CNAME DNS Entry
+## Wrong CNAME DNS Entry
 
 Created a wrong DNS CNAME entry in example.com zone file. The end result – a few visitors went to /dev/null:  
 `echo 'foo 86400 IN CNAME lb0.example.com' >> example.com && rndc reload`
 
-\*\*11. Failed To Update Postfix RBL Configuration
+## Failed To Update Postfix RBL Configuration
 
 In 2006 [ORDB went](//www.cyberciti.biz/tips/ordborg-rbl-anti-spam-service-going-offline.html) out of operation. But, I failed to update my Postfix RBL settings. One day ORDB was re-activated and it was returning every IP address queried as being on its blacklist. The end result was a disaster.
 
